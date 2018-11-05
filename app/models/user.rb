@@ -1,5 +1,5 @@
 class User < ApplicationRecord
- belongs_to :user, optional: false
+ 
 
 
  validates :name, presence: true, format: { without: /\s/ }
